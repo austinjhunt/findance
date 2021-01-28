@@ -1,5 +1,5 @@
 # findance (pronounced: find ance)
-A small-but-growing package for collecting data from Nasdaq and expanding upon the scope of the data using the Yahoo! Finance API which is nicely wrapped by the open source project [yfinance](https://github.com/ranaroussi/yfinance)
+A small-but-growing package for finding and collecting financial data from Nasdaq and expanding upon the scope of the data using the Yahoo! Finance API which is nicely wrapped by the open source project [yfinance](https://github.com/ranaroussi/yfinance)
 
 ## Usage
 To start, clone the repository. 
