@@ -131,7 +131,7 @@ class FinDance:
     def write_all_symbol_ticker_data(self):
         """ Loop through all symbols in self.symbols_ticker_data items and
         write their Ticker data to timestamped folders named after each symbol """ 
-        if symbol and self.output_folder_path:  
+        if self.output_folder_path and self.symbols_ticker_data:  
             for symbolName, symbolTicker in self.symbols_ticker_data.items(): 
                 self.write_symbol_ticker_data(symbol=symbolName)
 
