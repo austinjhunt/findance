@@ -25,4 +25,5 @@ Now, you can use the findance package.
 ### Example:
 
 ``` python findance --nasdaq NASDAQ_JAN28_2021_10_06AM.csv --symbol MSFT ```
+
 The above invocation would tell findance to use the file NASDAQ_JAN28_2021_10_06AM.csv pulled from the [Nasdaq Stock Screener](https://www.nasdaq.com/market-activity/stocks/screener) and to only pull data for the MSFT stock symbol. Since no --output-folder argument was passed, the default json_data folder is used as the output folder. 
